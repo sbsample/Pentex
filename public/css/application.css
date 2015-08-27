@@ -1,0 +1,28 @@
+body {
+	width:100%;
+	height:100%;
+}
+
+.navbar {
+	display: inline;
+}
+
+#nav_space {
+	display:inline;
+  text-align: center;
+  padding-left: 1em;
+  padding-right:1em;
+  
+}
+
+#title {
+	text-align: center;
+}
+
+#safe {
+	background-image: url("/img/Safe.jpg"); 
+	margin: auto;
+	background-size: cover;
+	
+	height: 450px;
+}

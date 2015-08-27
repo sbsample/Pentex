@@ -1,0 +1,29 @@
+<h2 id="title">Users</h2>
+<div id="user_list">
+<% if @user && @user.admin == true %>
+    <img src="/img/admin_o_1058242.jpg" height="300" width="300">
+<% end %>
+
+<% if @user %>
+	<h3>Welcome, <%=@user.first_name %> !</h3>
+<% end %>
+
+<% if @user %>
+	<h4>All Users</h4>
+	<% @users.each do |user| %>
+		
+		
+		
+		<p>First Name: <%= user.first_name %></p>
+
+		<p>Last Name:<%= user.last_name %></p>
+
+		<p>Username: <%= user.user_name %></p>
+		
+		<p>Email: <%= user.email %></p><br><br>
+
+	<% end %>
+	<%else%>
+	<h4>Must be logged in to see Users! </h4>
+<% end %>
+</div>

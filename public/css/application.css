@@ -1,7 +1,16 @@
-body {
+html {
+	 
+  background: url("/img/oronteus_finaeus.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*body {
 	width:100%;
 	height:100%;
-}
+}*/
 
 .navbar {
 	display: inline;
@@ -32,9 +41,9 @@ body {
 	height: auto; 
 }
 
-#bigmap {
+/*#bigmap {
 	background-image:url('img/oronteus_finaeus.jpg');
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center; 
-}
+}*/

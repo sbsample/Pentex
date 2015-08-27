@@ -15,14 +15,26 @@ body {
   
 }
 
-#title {
+#header {
+	width:auto;
+	height: auto; 
+}
+
+#bigboat {
+	width:auto;
+	height: auto;
 	text-align: center;
 }
 
-#safe {
-	background-image: url("/img/Safe.jpg"); 
-	margin: auto;
-	background-size: cover;
-	
-	height: 450px;
+#subheader {
+	width:auto;
+	background-color:#4470F2;
+	height: auto; 
+}
+
+#bigmap {
+	background-image:url('img/oronteus_finaeus.jpg');
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center; 
 }

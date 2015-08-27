@@ -12,38 +12,45 @@ html {
 	height:100%;
 }*/
 
-.navbar {
-	display: inline;
+
+#footer {
+	position: absolute;
+	bottom: 20px;
+    left: 0;
+    right: 0;
+	width:30%;
+	height: 15%;
+	background-color: #FFFFFF;
+	opacity:1.0;
+
 }
 
+#logo {
+	height: 100%;
+	width: 20%;
+	
+	
+}
+
+#greyboat {
+	max-height: 200px;
+	max-width: 200px; 
+}
+
+/*.navbar {
+	display: inline;
+}*/
+
 #nav_space {
-	display:inline;
-  text-align: center;
-  padding-left: 1em;
-  padding-right:1em;
+  	display:block;
+  	text-align: left;
+  	font-size: 10;
+  	/*padding-left: 1em;
+  	padding-right:1em;*/
   
 }
 
-#header {
-	width:auto;
-	height: auto; 
-}
 
-#bigboat {
-	width:auto;
-	height: auto;
-	text-align: center;
-}
 
-#subheader {
-	width:auto;
-	background-color:#4470F2;
-	height: auto; 
-}
 
-/*#bigmap {
-	background-image:url('img/oronteus_finaeus.jpg');
-	background-repeat:no-repeat;
-	background-size:contain;
-	background-position:center; 
-}*/
+

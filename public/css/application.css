@@ -1,10 +1,9 @@
-html {
+body {
 	 
-  background: url("/img/oronteus_finaeus.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-image: url("/img/oronteus_finaeus.jpg"); 
+  background-position: center center;
+  background-attachment: fixed;
+
 }
 
 /*body {
@@ -13,9 +12,10 @@ html {
 }*/
 
 
-#footer {
+#header {
 	position: absolute;
-	bottom: 20px;
+	top:20px;
+	bottom: 0;
     left: 0;
     right: 0;
 	width:30%;
@@ -50,7 +50,13 @@ html {
   
 }
 
+ul {
+	list-style-type:none;
+	text-decoration: none;
+}
 
+li {
+	font-size: 12px;
 
-
+}
 

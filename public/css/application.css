@@ -1,8 +1,9 @@
 body {
 	 
-  background-image: url("/img/oronteus_finaeus.jpg"); 
+  background-image: url("/img/oronteus_finaeus_opa_blur_4.jpg"); 
   background-position: center center;
   background-attachment: fixed;
+
 
 }
 
@@ -13,13 +14,13 @@ body {
 
 
 #header {
-	position: absolute;
+	position: fixed;
 	top:20px;
 	bottom: 0;
     left: 0;
     right: 0;
-	width:30%;
-	height: 15%;
+    width: 100%;
+	max-height: 15%;
 	background-color: #FFFFFF;
 	opacity:1.0;
 
@@ -33,15 +34,16 @@ body {
 }
 
 #greyboat {
-	max-height: 200px;
-	max-width: 200px; 
+	position: absolute;
+	/*width: 50%;
+	height: 50%;*/
+	max-height: 80%;
+	max-width: 80%; 
 }
 
-/*.navbar {
-	display: inline;
-}*/
 
-#nav_space {
+
+.nav_space {
   	display:block;
   	text-align: left;
   	font-size: 10;
@@ -50,13 +52,14 @@ body {
   
 }
 
-ul {
-	list-style-type:none;
+li {
+	list-style-type: none;
 	text-decoration: none;
 }
 
-li {
+.navbar {
 	font-size: 12px;
+	text-decoration: none;
 
 }
 

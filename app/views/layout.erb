@@ -1,60 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!--
-    normalize.css removes cross-browser differences in defaults, e.g.,
-    differences in how form elements appear between Firefox and IE
-    See: http://necolas.github.com/normalize.css/
-  -->
+<meta charset="utf-8">
+<title>Pentexoire Consulting</title>
+<meta name="description" content="Pentexoire consulting">
+<meta name="author" content="Staunton Sample">
   <link rel="stylesheet" href="/css/normalize.css">
-  <!--
-    application.css is where you put your styles
-  -->
+
   <link rel="stylesheet" href="/css/application.css">
+  <link rel="stylesheet" href="css/skeleton.css">
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  
 
-  <title>Pentexoire Consulting</title>
+
+
 </head>
 <body>
- <div id="container">
-    <div id='header'>
-      <div id='logo'>
-        <img id="greyboat" src="/img/PentexoireConD39aR03aP01ZL-Roosevelt3a grey.png">
-      </div>
-      <div class="nav_space">
+ <div class="container">
+    <section class='header'>
+      <div class='row'>
+        <div class="one-third column" style="margin-top: 1%; ">
+          <div class="image-center">
+          <img id="greyboat" src="/img/PentexoireConD39aR03aP01ZL-Roosevelt3a grey.png">
+          </div>
+        </div>
+
+        <!-- row -->
+     </div>
+     <div class='row'>
+      <div class="eight columns " style="margin-top: 3%">
         <nav>
           <ul>
-            <li class="navbar"> 
+            <li class="navbar">
               <a href='/'>Home</a>
             </li>
-            <li class="navbar">   
+            <li class="navbar">
               <a href='#'>About</a>
             </li>
-            <li class="navbar"> 
+            <li class="navbar">
               <a href='#'>Services</a>
             </li>
-            <li class="navbar"> 
+            <li class="navbar">
               <a href='#'>Contact</a>
             </li>
           </ul>
         </nav>
         <!-- nav -->
-      </div>   
+        </div>
+        <!-- nav row -->
+     </div>
+
     <!-- header -->
-    </div>  
-    
+    </section>
+
    <!-- container    -->
   </div>
-  
-    
-  
-  
- 
+
+
+
+
+
 
   <%= yield %>
-  
+
 </body>
 
 

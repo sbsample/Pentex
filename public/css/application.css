@@ -1,51 +1,50 @@
 body {
-	 
-  background-image: url("/img/oronteus_finaeus_opa_blur_4.jpg"); 
+
+  background-image: url("/img/oronteus_finaeus_opa_blur_4.jpg");
+  background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  background-repeat:no-repeat;
 
 
 }
 
 
 
-#header {
-	position: absolute;
-	top:20px;
-	bottom: 0;
-    width: 100%;
-	max-height: 50%;
+.header {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #FFFFFF;
+  opacity: .7;
+}
 
-	
+
+
+
+
+.image-center{
 
 }
 
-#logo {
-	position: relative;
-	height: 100%;
-	width: 20%;
-	padding: 0;
-	margin-bottom: 0;
 
-	
-	
-}
 
 #greyboat {
-	position: relative;
-	max-height: 100%;
-	max-width: 100%; 
+  position: relative;
+	height: 120%;
+	width: 120%;
 	background-color: #FFFFFF;
 }
 
 
 
-.nav_space {
+/*.nav_space {
 	position: absolute;
 	top: 0;
 	background-color: #FFFFFF;
 	max-height: 100%;
-	
+
 	width: 100%;
   	border: 0 solid;
   	margin: 0;
@@ -53,24 +52,32 @@ body {
   	left: 20%;
   	opacity: 0.65;
 
-}	
+}*/
+
 
 nav{
-	
-}
-ul li {
-  	max-height: 85%;
-  	margin: 0;
-	display: block;
-	text-decoration: none;
-	color: black;
+  position: relative;
+  background-color: #FFFFFF;
+  opacity: .65;
+  /*width: 100%;*/
+  padding-top: 2%;
+  text-align: center;
 
-	
+}
+nav ul {
+  height: auto;
+}
+nav li {
+  display: inline;
+
+
+
 }
 
-.nav_space a {
+nav a {
 	text-decoration: none;
 	color: gray;
+
 }
 
 
@@ -78,7 +85,8 @@ li {
 	font-size: .75em;
 	padding: 0;
 	margin: 0;
-	
+  list-style-type: none
+
 }
 
 

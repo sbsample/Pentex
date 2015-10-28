@@ -12,7 +12,7 @@ body {
 
 
 .header {
-  position: fixed;
+  position: relative;
   left: 0;
   width: 100%;
   max-height: 35%;
@@ -22,34 +22,20 @@ body {
 
 }
 
-
-
-
-
-.image-center{
-
-
-}
-
-
-
 #greyboat {
   position: relative;
 	height: auto;
 	width: auto;
   max-width: 100%;
   max-height: 90%;
-  min-height: 50%;
+  min-height: 60%;
 	background-color: #FFFFFF;
 }
 
-
-
-
-
-
 nav{
   position: relative;
+  height: auto;
+  width: auto;
   background-color: #FFFFFF;
   opacity: .65;
   /*width: 100%;*/
@@ -75,12 +61,37 @@ nav a {
 
 
 li {
-	font-size: 1em;
+
 	padding: 0;
 	margin: 0;
   list-style-type: none
 
 }
+
+.feature {
+  background-color: #F5F5F5;
+  opacity: .85;
+  width: 100%;
+  margin-top: 2%;
+  max-height: 35%;
+  text-align: center;
+}
+
+.feature img {
+    margin-bottom: 5%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.recentblog {
+  background-color: #F5F5F5;
+  opacity: .85;
+  width: 100%;
+  margin-top: 2%;
+  height: 50%;
+  text-align: center;
+}
+
 
 
 

@@ -16,6 +16,10 @@ body {
 
 }
 
+.landing_wrap {
+	margin: 20% 0 21%;
+	background-color: none;
+}
 
 
 .feature_wrap {
@@ -109,6 +113,15 @@ li {
   text-align: center;
 }
 
+.landing {
+  /*background-color: #F5F5F5;
+  opacity: .85;*/
+  width: 100%;
+  margin-top: 2%;
+  height: 50%;
+  text-align: center;
+  color: #F0F8FF;
+}
 
 
 

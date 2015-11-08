@@ -27,7 +27,7 @@ body {
 	background-color: #F4F3EE; 
 	opacity: .95;
 	margin-top: 5%;
-	padding: 7% 0 7%;
+	padding: 3% 0 1%;
 }
 
 .header {
@@ -93,7 +93,6 @@ li {
   background-color: #F4F3EE;
   opacity: .75;
   width: 100%;
-  margin-top: 2%;
   max-height: 35%;
   text-align: center;
 }

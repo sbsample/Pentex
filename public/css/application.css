@@ -14,6 +14,7 @@ body {
 	width:100%;
 	background-color: #F5F5F5; 
 	opacity: .85;
+	position: relative;
 
 }
 
@@ -55,6 +56,7 @@ body {
   width: auto;
   max-width: 75%;
   max-height: 65%;
+  opacity: .99;
   
 
 }
@@ -63,7 +65,7 @@ nav {
   position: relative;
   height: auto;
   width: auto;
-  opacity: .65;
+  opacity: .95;
   float: bottom;
   margin: 7% 0% 0% 10% ;
 

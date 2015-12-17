@@ -67,7 +67,7 @@ nav {
   width: auto;
   opacity: .95;
   float: bottom;
-  margin: 7% 0% 0% 10% ;
+  margin: 8% 0% 0% 10% ;
 
 
 }
@@ -134,8 +134,7 @@ li {
 }
 
 .about {
-  background-color: #F5F5F5;
-  opacity: .85;
+
   width: 100%;
   margin-top: 2%;
   height: 50%;
@@ -143,3 +142,13 @@ li {
   color: #00256E;
 }
 
+.darrell img{
+  margin-top: 5%;
+  max-width: 50%;
+  max-height: 50%;
+  object-fit:contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
